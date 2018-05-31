@@ -18,8 +18,9 @@ public class Semana9 {
         int[] c=new int[10];
         System.out.println(c.length);
         for (int contador=0; contador<c.length; contador++){
-            System.out.println(c[contador]);
+            System.out.printf("%d\t\t%d\n",contador,c[contador]);
         }
+        
     }
     
 }
